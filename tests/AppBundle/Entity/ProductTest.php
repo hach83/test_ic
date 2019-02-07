@@ -20,7 +20,7 @@ class ProductTest extends \PHPUnit_Framework_TestCase
     {
         $product = new Product('Un autre produit', 'Un autre type de produit', 20);
 
-        $this->assertSame(3.92, $product->computeTVA());
+        $this->assertSame(33.92, $product->computeTVA());
     }
 
     public function testNegativePriceComputeTVA()
